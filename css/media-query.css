@@ -1,0 +1,36 @@
+/**************************Zona Responsive****************************/
+@media (max-width:900px) {
+  /*-----------------------blogs.html--------------------------------*/
+  /*Seccion 1*/
+  .blogs-news-container img{
+      width: 100%;
+  }
+  .blogs-news-container-main{
+    grid-template-columns: 2fr;
+  }
+  .blogs-new-info-container{
+    grid-column: 1;
+    grid-row: 3;
+  }
+  /*Seccion 2*/
+  .blogs-posts-container .post-container{
+    max-width: 100%;
+  }
+
+  /*-----------------------blog.html--------------------------------*/
+  .contact-main-container .grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /*-----------------------perfil.html------------------------------*/
+  .profile-container{
+    display: inline-block;
+  }
+  .profile-img-container img{
+    width: 100%;
+  }
+  .proyects-main-container{
+    grid-template-columns: 1fr;
+  }
+
+}
